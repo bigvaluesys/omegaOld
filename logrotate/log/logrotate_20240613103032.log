@@ -1,0 +1,22 @@
+initLogrotate [INFO] : 0. Debut programme ./logrotate.sh
+initLogrotate [INFO] : Aucun nom de fichier de configuration passe en paramètre
+initLogrotate [INFO] : FIC_PARAM=/home/adm1/logrotate/cfg/logrotate.cfg (Valeur par defaut)
+initLogrotate [INFO] : ####################################
+initLogrotate [INFO] : 1. Detail des variables du programme
+initLogrotate [INFO] : ####################################
+initLogrotate [INFO] :
+initLogrotate [INFO] : HORODATAGE = 20240613103032
+initLogrotate [INFO] : DIR_HOME   = /home/adm1/logrotate
+initLogrotate [INFO] : DIR_SHL    = /home/adm1/logrotate/shl
+initLogrotate [INFO] : DIR_WRK    = /home/adm1/logrotate/wrk
+initLogrotate [INFO] : DIR_LOG    = /home/adm1/logrotate/log
+initLogrotate [INFO] : DIR_TMP    = /home/adm1/logrotate/tmp
+initLogrotate [INFO] : DIR_CFG    = /home/adm1/logrotate/cfg
+initLogrotate [INFO] : LIST_FIC   = /home/adm1/logrotate/wrk/logrotate_20240613103032.lst
+initLogrotate [INFO] :
+initLogrotate [INFO] :
+initLogrotate [INFO] : Fin de initLogrotate
+13-06-2024 10:30:32 > logrotate [INFO] : ######### Demarrage de traitement ###########
+[WARNING] /home/adm1/TP_SHELL/logrotate/log n'existe pas. Merci de corriger /home/adm1/logrotate/cfg/logrotate.cfg
+[WARNING] /home/adm1/TP_SHELL/logrotate/wrk n'existe pas. Merci de corriger /home/adm1/logrotate/cfg/logrotate.cfg
+13-06-2024 10:30:32 > logrotate [INFO] : ######### Fin de traitement ###########

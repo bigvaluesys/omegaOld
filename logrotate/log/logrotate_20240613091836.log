@@ -1,0 +1,3 @@
+initLogrotate [INFO] : 0. Debut programme ./initLogrotate.sh
+initLogrotate [INFO] : FIC_PARAM=toto.cfg
+initLogrorate [ERROR] : Fichier toto.cfg vide ou inexistante

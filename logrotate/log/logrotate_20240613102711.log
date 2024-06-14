@@ -1,0 +1,4 @@
+initLogrotate [INFO] : 0. Debut programme ./initLogrotate.sh
+initLogrotate [INFO] : Aucun nom de fichier de configuration passe en paramètre
+initLogrotate [INFO] : FIC_PARAM=/home/adm1/logrotate/cfg/logrotate.cfg (Valeur par defaut)
+initLogrorate [ERROR] : Fichier /home/adm1/logrotate/cfg/logrotate.cfg vide ou inexistante
