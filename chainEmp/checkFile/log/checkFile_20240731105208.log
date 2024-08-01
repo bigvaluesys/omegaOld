@@ -1,0 +1,17 @@
+31-07-2024 10:52:08 > checkFile [INFO] : ######### Demarrage de traitement ###########
+sftp> cd data
+sftp> ls -lrt
+-rw-rw-r--    1 adm1     adm1            0 Jul 31 07:26 file2.csv
+-rw-rw-r--    1 adm1     adm1            0 Jul 31 07:26 file1.csv
+sftp> quit
+sftp> cd data
+sftp> ls -lrt
+-rw-rw-r--    1 adm1     adm1            0 Jul 31 07:26 file2.csv
+-rw-rw-r--    1 adm1     adm1            0 Jul 31 07:26 file1.csv
+sftp> quit
+sftp> cd data
+sftp> lcd ../data
+sftp> get *.csv
+Fetching /home/adm1/data/file1.csv to file1.csv
+Fetching /home/adm1/data/file2.csv to file2.csv
+sftp> quit

@@ -1,0 +1,31 @@
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Thu Aug 1 03:46:21 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+ERROR:
+ORA-28002: the password will expire within 6 days
+
+
+Last Successful login time: Thu Aug 01 2024 03:40:33 -07:00
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> 
+Session altered.
+
+SQL> 
+Table truncated.
+
+SQL> Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu Aug 1 03:46:22 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+ORA-28002: the password will expire within 6 days

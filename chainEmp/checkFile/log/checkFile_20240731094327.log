@@ -1,0 +1,35 @@
+31-07-2024 09:43:27 > checkFile [INFO] : ######### Demarrage de traitement ###########
+sftp> cd data
+sftp> ls -lrt
+drwxr-xr-x    2 adm1     adm1         4096 Jun  8 11:05 pushgateway-1.9.0.linux-amd64
+-rwxrwxr-x    1 adm1     adm1          250 Jun 12 06:05 tableau.sh
+drwxrwxr-x    5 adm1     adm1         4096 Jun 14 10:53 omega
+drwxrwxr-x    3 adm1     adm1         4096 Jun 18 07:45 test
+drwxrwxr-x    3 adm1     adm1         4096 Jun 19 05:26 merge
+drwxrwxr-x    3 adm1     adm1         4096 Jun 19 09:08 branche
+drwxrwxr-x    3 adm1     adm1         4096 Jun 19 09:30 rebase
+drwxrwxr-x    3 adm1     adm1         4096 Jun 19 10:19 conflit
+drwxrwxr-x    5 adm1     adm1         4096 Jun 19 10:39 ecommerce-Frontend
+drwxrwxr-x    7 adm1     adm1         4096 Jul  4 04:24 school-educational-html5-template
+drwxrwxr-x    7 adm1     adm1         4096 Jul  4 04:31 school-template
+-rw-rw-r--    1 adm1     adm1     13022098 Jul  4 11:21 apache-tomcat-10.1.25.tar.gz
+drwxr-xr-x    4 adm1     adm1         4096 Jul 10 06:34 prometheus-2.53.1.linux-amd64
+-rw-rw-r--    1 adm1     adm1        30750 Jul 10 10:09 benefits.war
+drwxrwxr-x    3 adm1     adm1         4096 Jul 10 11:07 tomcat
+drwxr-xr-x    2 adm1     adm1         4096 Jul 14 07:58 node_exporter-1.8.2.linux-amd64
+-rw-rw-r--    1 adm1     adm1        74333 Jul 17 09:32 refclient.war
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 19 05:56 prometheus-2.53.1.linux-amd64.tar.gz
+-rw-rw-r--    1 adm1     adm1     10676343 Jul 19 08:20 node_exporter-1.8.2.linux-amd64.tar.gz
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 24 06:12 prometheus-2.53.1.linux-amd64.tar.gz.1
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 24 06:12 prometheus-2.53.1.linux-amd64.tar.gz.2
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 24 06:13 prometheus-2.53.1.linux-amd64.tar.gz.3
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 24 06:13 prometheus-2.53.1.linux-amd64.tar.gz.4
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 24 06:13 prometheus-2.53.1.linux-amd64.tar.gz.5
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 24 06:13 prometheus-2.53.1.linux-amd64.tar.gz.6
+-rw-rw-r--    1 adm1     adm1     104191695 Jul 24 06:14 prometheus-2.53.1.linux-amd64.tar.gz.7
+-rw-rw-r--    1 adm1     adm1     10563386 Jul 24 08:53 pushgateway-1.9.0.linux-amd64.tar.gz
+-rwxrwxr-x    1 adm1     adm1         1564 Jul 25 10:52 monitoringGrafana.sh
+-rw-rw-r--    1 adm1     adm1         2581 Jul 25 17:39 RPC-1721943543620.json
+-rw-rw-r--    1 adm1     adm1        35279 Jul 25 17:41 native-play-influxdb.json
+sftp> quit
+Le repertoire data de la machine cliente n existe pas ou ne contient aucun fichier csv

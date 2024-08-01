@@ -1,0 +1,59 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu Aug 1 04:10:06 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+
+Control File:   ../cfg/loadData.ctl
+Data File:      ../in/emp.csv
+  Bad File:     ../cfg/emp.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EMP, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+EMPNO                               FIRST     *   ;       CHARACTER            
+ENAME                                NEXT     *   ;       CHARACTER            
+JOB                                  NEXT     *   ;       CHARACTER            
+MGR                                  NEXT     *   ;       CHARACTER            
+HIREDATE                             NEXT     *   ;       CHARACTER            
+    SQL string for column : "to_date(:hiredate,'DD/MM/RR HH24:MI:SS')"
+SAL                                  NEXT     *   ;       CHARACTER            
+COMM                                 NEXT     *   ;       CHARACTER            
+DEPTNO                               NEXT     *   ;       CHARACTER            
+
+Record 15: Rejected - Error on table EMP, column EMPNO.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+Table EMP:
+  14 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 516000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            15
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Thu Aug 01 04:10:06 2024
+Run ended on Thu Aug 01 04:10:06 2024
+
+Elapsed time was:     00:00:00.08
+CPU time was:         00:00:00.01
