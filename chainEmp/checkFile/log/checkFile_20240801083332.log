@@ -1,0 +1,14 @@
+01-08-2024 08:33:32 > checkFile [INFO] : ######### Demarrage de traitement ###########
+sftp> cd data
+sftp> ls -lrt
+-rw-r--r--    1 oracle   oracle        746 Aug  1 07:00 emp.csv
+sftp> quit
+sftp> cd data
+sftp> ls -lrt
+-rw-r--r--    1 oracle   oracle        746 Aug  1 07:00 emp.csv
+sftp> quit
+sftp> cd data
+sftp> lcd ../../loadData/in/
+sftp> get *.csv
+Fetching /home/oracle/data/emp.csv to emp.csv
+sftp> quit
